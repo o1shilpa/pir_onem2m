@@ -1,4 +1,4 @@
-/*int Status = 12;  // Digital pin D6
+/*int Status = 12;  // Digital pin D6 on node MCU This is for the LED
 
 int sensor = 13;  // Digital pin D7
 void setup() {
@@ -12,12 +12,12 @@ void loop() {
     if(state == HIGH) {
       digitalWrite (Status, HIGH);
       Serial.println("Motion detected!");
-      delay(1000);
+      delay(3000);
     }
     else {
       digitalWrite (Status, LOW);
       Serial.println("Motion absent!");
-      delay(1000);
+      delay(3000);
       }
 }
 */
@@ -28,7 +28,7 @@ void loop() {
 ///////////////Parameters/////////////////
 // WIFI params
 const char* ssid = "XYZ";
-const char* password = "123abcabc";
+const char* password = "123xyzabc";
 
 // CSE params
 const char* host = "192.168.43.5";
