@@ -6,11 +6,11 @@ var app = express();
 
 ///////////////Parameters/////////////////
 //CSE Params
-var cseUri = "http://192.168.43.5:8080";
+var cseUri = "http://192.168.43.5:8080";//using post 8080 for this
 
 //AE params
 var aeId = "Cae-monitor1";
-var aeIp = "192.168.43.5";
+var aeIp = "192.168.43.5";//ip address of the host machine
 var aePort = 3000;
 //////////////////////////////////////////
 
