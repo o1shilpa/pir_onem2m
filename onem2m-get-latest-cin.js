@@ -4,7 +4,7 @@ var request = require('request');
 console.log("\n▶▶▶▶▶");
 var originator = "Cae-admin";
 var method = "GET";
-var uri= "http://10.24.46.148:8080/server/ae_oneT/CarPark/la";
+var uri= "http://10.24.46.148:8080/server/ae_oneT/CarPark/la";//uri address
 
 console.log(method+" "+uri);
 
